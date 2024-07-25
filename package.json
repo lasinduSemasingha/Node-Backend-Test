@@ -10,8 +10,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
     "formidable": "^3.5.1",
     "mysql": "^2.18.1",
+    "mysql2": "^3.10.3",
     "nodemailer": "^6.9.14",
     "upper-case": "^3.0.0"
   }
