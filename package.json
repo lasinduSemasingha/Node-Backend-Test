@@ -1,0 +1,18 @@
+{
+  "name": "test01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "formidable": "^3.5.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.14",
+    "upper-case": "^3.0.0"
+  }
+}
