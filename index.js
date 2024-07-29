@@ -9,7 +9,7 @@ const express = require('express');
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Serve the HTML file
+// Serve the HTML file to server
 app.get('/', (req, res) => {
     fs.readFile('./demo1.html', (err, data) => {
         if (err) {
